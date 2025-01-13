@@ -19,15 +19,15 @@
   vagrant init
   ```
 - **Initialized GIt**
-- Set up version control
-  ```bash
-  git init
-  git add .
-  git commit -m "Inital commit"
-  git remote add origin "url"
-  git branch -M main
-  git push -u origin main
-  ```
+  - Set up version control
+    ```bash
+    git init
+    git add .
+    git commit -m "Inital commit"
+    git remote add origin "url"
+    git branch -M main
+    git push -u origin main
+    ```
 - **Started and Accessed the VM**
   ```bash
   vagrant up
