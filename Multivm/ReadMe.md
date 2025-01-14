@@ -33,12 +33,12 @@ Copy the provided Vagrantfile into the project directory.
 Run the following command to start all VMs:
 
 ```bash
-vagrant up (To bring up all the Vms at once)
-or
+vagrant up # To bring up all the Vms at once
+# or
 vagrant web01
 vagrant web02
 vagrant db01
-to bring up the required Vms
+# To bring up the required Vms
 ```
 ### 4. Access the VMs
 SSH into web01:
