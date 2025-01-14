@@ -22,5 +22,42 @@ Make sure you have the following installed before proceeding:
 ### 1. Clone or Create the Project Directory
 
 ```bash
-mkdir multivm-vagrant-setup
-cd multivm-vagrant-setup
+mkdir Multivm
+cd Multivm
+```
+
+### 2. Save the Vagrantfile
+Copy the provided Vagrantfile into the project directory.
+
+### 3. Bring Up the VMs
+Run the following command to start all VMs:
+
+```bash
+vagrant up (To bring up all the Vms at once)
+or
+vagrant web01
+vagrant web02
+vagrant db01
+to bring up the required Vms
+```
+### 4. Access the VMs
+SSH into web01:
+```bash
+vagrant ssh web01
+```
+SSH into web02:
+```bash
+vagrant ssh web02
+```
+SSH into db01:
+```bash
+vagrant ssh db01
+```
+
+### Network Configuration
+The VMs are configured with the following private network IPs:
+
+web01: 192.168.56.10
+web02: 192.168.56.11
+db01: 192.168.56.12
+You can modify these IP addresses in the Vagrantfile if necessary.
