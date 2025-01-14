@@ -1,4 +1,4 @@
-# To deploy website manually on apache2 sevice on ubuntu server
+## To deploy website manually on apache2 service on ubuntu server
 - **Install required packages**
   ```bash
   apt update
