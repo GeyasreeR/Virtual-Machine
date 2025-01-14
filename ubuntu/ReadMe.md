@@ -7,7 +7,7 @@
   ```
 Note: we can also do this through provisioning in vagrant file, if done we can skip this step
 
--**Get in to root user**
+- **Get in to root user**
 ```bash
 sudo -i
 ```
@@ -18,7 +18,7 @@ ip addr show
 ```
 now copy the ip public address and paste it in the browser and default apache2 server page should open then we can say apache2 service is up and running
 
--**Get html template from tooplate**
+- **Get html template from tooplate**
 Change into temp directory and download html template
 ```bash
 cd /tmp/
